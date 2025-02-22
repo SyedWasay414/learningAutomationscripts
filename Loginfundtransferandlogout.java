@@ -56,12 +56,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 	            try {
 	                // Wait for username field and enter value
 	                WebElement usernameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("username")));
-	                usernameField.sendKeys("Richa Chadda");
+	                usernameField.sendKeys("");
 	                LOGGER.info("Entered username.");
 
 	                // Wait for password field and enter value
 	                WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
-	                passwordField.sendKeys("KingUser123");
+	                passwordField.sendKeys("");
 	                LOGGER.info("Entered password.");
 
 	                // Wait for Submit button and click
